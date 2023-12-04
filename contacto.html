@@ -13,39 +13,44 @@
     <header class="site-header">
         <div class="contenedor contenido-header">
             <div class="barra">
-                <a href="./">
-                    <img class="logo" src="img/logo.svg" alt="Logotipo de bienes raices">
+                <a href="./" class="text-white logo">
+                    <img class="logo" src="./assets/icons/icon-page.svg" alt="page-icon" width="40">
+                    <h1>
+                        <span>Tobar</span>
+                        <strong>Construction</strong>
+                    </h1>
                 </a>
                 <nav class="navegacion">
-                    <a class="link-header" href="nosotros.html">Nosotros</a>
-                    <a class="link-header" href="anuncios.html">Anuncios</a>
+                    <a class="link-header" href="index.html">Home</a>
+                    <a class="link-header" href="nosotros.html">About</a>
+                    <a class="link-header" href="anuncios.html">Services</a>
                     <a class="link-header" href="blog.html">Blog</a>
-                    <a class="link-header" href="contacto.html">Contacto</a>
+                    <a class="link-header" href="contacto.html">Contact</a>
                  </nav> 
             </div >
-            <h1 class="title-header">Venta de Casas y Departamentos Exclusivos de Lujo</h1>
+            <!-- <h1 class="title-header">Venta de Casas y Departamentos Exclusivos de Lujo</h1> -->
         </div>
     </header>
 
-    <h1 class="fw-300 text-center">Contacto</h1>
     <img src="img/destacada3.jpg" alt="">
+    <h1 class="fw-300 text-center">Contact Us</h1>
     <main class="contenedor seccion contenido-centrado">
-        <h2 class="fw-300 text-center">Llena el Formulario</h2>
+        <!-- <h2 class="fw-300 text-center">Llena el Formulario</h2> -->
         <form class="contacto" action="">
             <fieldset class="caja-contacto">
-                <legend>Infórmacion Personal</legend>
-                <label for="nombre">Nombre:</label>
+                <legend>Personal Information</legend>
+                <label for="nombre">Full Name:</label>
                 <input type="text" id="nombre" placeholder="Tu Nombre">
                 <label for="email">E-mail:</label>
                 <input type="email" id="email" placeholder="Tu Email">
-                <label for="telefono">Teléfono:</label>
+                <label for="telefono">Phone Number:</label>
                 <input type="tel" id="telefono" placeholder="Tu Teléfono">
-                <label for="mensaje">Mensaje:</label>
+                <label for="mensaje">Message:</label>
                 <textarea id="mensaje" cols="30" rows="10"></textarea>
             </fieldset>   
 
-            <fieldset class="caja-contacto">
-                <legend>Infórmacion sobre Propiedad</legend>
+            <!-- <fieldset class="caja-contacto">
+                <legend>Information about</legend>
                 <label for="opciones">Vende o Compra:</label>
                 <select id="opciones">
                     <option selected disabled>--Selecciona--</option>
@@ -55,24 +60,24 @@
                 <label for="presupuesto">Presupuesto:</label>
                 <input type="number" id="presupuesto">
 
-            </fieldset>  
+            </fieldset>   -->
 
             <fieldset class="caja-contacto">
-                <legend>Contacto</legend>
-                <p>Como desea ser Contactado:</p>
+                <legend>Contact</legend>
+                <p>How would you like to be contacted?:</p>
                 <div class="forma-contacto">
-                    <label for="tele">Teléfono</label>
+                    <label for="tele">Phone</label>
                     <input type="radio" name="opcion" id="tele">
-                    <label for="correo" >Correo</label>
+                    <label for="correo" >Email</label>
                     <input type="radio" name="opcion">
                 </div >
-                <p>Si Eligió Teléfono, elija la Fecha y Hora</p>
-                <label for="fecha">Fecha:</label>
+                <p>If you chose Phone, select Date and Time</p>
+                <label for="fecha">Date:</label>
                 <input type="date" id="fecha">
-                <label for="hora">Hora:</label>
+                <label for="hora">Time:</label>
                 <input type="time">
             </fieldset>
-            <input  type="submit" value="Enviar" class="boton boton-verde">
+            <input  type="submit" value="Send" class="boton boton-verde">
         </form>
     </main>
 
@@ -80,12 +85,12 @@
     <footer class="site-footer">
         <div class="contenedor contenedor-footer">
             <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
+                <a href="nosotros.html">About</a>
+                <a href="anuncios.html">Announcements</a>
                 <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
+                <a href="contacto.html">Contact</a>
             </nav>
-            <p class="copyright">Todos los Derechos Reservados 2019 &copy;</p>
+            <p class="copyright">All rights reserved 2023 &copy;</p>
         </div>
     </footer>
 

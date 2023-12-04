@@ -104,8 +104,11 @@ a{
 }
 .barra{
     align-items: center;
-    padding-top: 3rem;
+    
     text-align: center;
+}
+.pt-3{
+    padding-top: 3rem;
 }
 @media (min-width: 768px) {
     .barra{
@@ -411,6 +414,9 @@ legend{
 .logo img{
     display: inline-block;
     margin-right: 10px;
+}
+.entrada-container{
+    position: relative;
 }
 
 
